@@ -1457,3 +1457,122 @@ button {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* =========================================================
+   DESKTOP TYPOGRAPHY UPGRADE
+   Larger and more readable computer layout
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+    /* Navigation */
+    .nav {
+        font-size: 14px;
+        gap: 40px;
+    }
+
+    .wordmark {
+        font-size: 27px;
+    }
+
+    /* Hero introduction */
+    .hero-kicker {
+        font-size: 12px;
+    }
+
+    .hero-intro {
+        font-size: 19px;
+        max-width: 590px;
+        line-height: 1.9;
+    }
+
+    .hero h1 {
+        font-size: clamp(105px, 9vw, 145px);
+    }
+
+    .button,
+    .text-link {
+        font-size: 14px;
+    }
+
+    /* Section headings */
+    .section-heading h2,
+    .about-copy h2 {
+        font-size: clamp(65px, 5.5vw, 90px);
+    }
+
+    .section-aside {
+        font-size: 16px;
+        max-width: 470px;
+        line-height: 1.9;
+    }
+
+    /* Project filters */
+    .filter {
+        font-size: 12px;
+        padding: 12px 17px;
+    }
+
+    /* Project cards */
+    .project-content {
+        padding: 27px;
+    }
+
+    .project-content h3 {
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+    .project-content p {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .project-meta {
+        font-size: 11px;
+    }
+
+    .project-tags span {
+        font-size: 10px;
+    }
+
+    .case-study-button {
+        font-size: 12px;
+    }
+
+    /* About section */
+    .about-copy > p:not(.eyebrow) {
+        font-size: 17px;
+        line-height: 2;
+    }
+
+    /* Toolkit */
+    .toolkit-card h3 {
+        font-size: 19px;
+    }
+
+    .toolkit-card p {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    /* Resume */
+    .resume-copy {
+        font-size: 16px;
+        line-height: 1.9;
+    }
+
+    .resume-highlights span {
+        font-size: 14px;
+    }
+
+    /* Contact */
+    .contact-copy {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 11px;
+    }
+}
