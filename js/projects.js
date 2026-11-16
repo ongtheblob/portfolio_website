@@ -49,5 +49,49 @@ const projects = [
     impact: "The game provides a complete two-player experience in the browser, with scores and turn information visible as the game progresses. This description reflects the visible functionality of the current project.",
     tags: ["HTML", "CSS", "JavaScript", "Game Logic"],
     link: "https://ongtheblob.github.io/memory_game/", linkLabel: "Open live project"
+  },
+  
+  {
+    number: "06",
+    title: "VO₂max & Running Economy Test Logger",
+    category: "sport",
+    label: "EXERCISE PHYSIOLOGY & ENDURANCE",
+    glyph: "🏃",
+    image: "assets/images/vo2max-running-economy.png",
+
+    description: "A sports science test logger for recording and analysing participant data across Running Economy and Maximal Oxygen Uptake / Endurance protocols.",
+
+    problem: "Sports science testing involves recording several measures across multiple stages. Keeping participant information, speed, VO₂, heart rate and RPE organised is important when reviewing a test.",
+
+    approach: "I developed a test logger that brings participant details and both testing protocols into one workflow. It supports stage-by-stage data entry, summary measures and visualisations.",
+
+    impact: "The application brings test recording, analysis and reporting together, with CSV downloads and a combined printable PDF report.",
+
+    tags: ["Exercise Physiology", "VO₂max", "Data Visualisation", "JavaScript"],
+
+    link: "https://ongtheblob.github.io/VO2max_calculator/",
+    linkLabel: "Open live project"
+  },
+  {
+    number: "07",
+    title: "Velocity-Based Training & 1RM Profiling",
+    category: "sport",
+    label: "STRENGTH & CONDITIONING",
+    glyph: "🏋️",
+    image: "assets/images/vbt-1rm-profile.png",
+
+    description: "An athlete performance tool for creating load–velocity profiles, estimating 1RM and tracking strength testing sessions.",
+
+    problem: "Interpreting load–velocity observations and estimating an athlete's one-repetition maximum requires testing data to be organised and analysed consistently.",
+
+    approach: "I built an application where users enter athlete details, select an exercise and add load–velocity data points. The system generates a load–velocity profile and displays estimated 1RM and regression statistics.",
+
+    impact: "The tool combines profiling, regression results and athlete progress tracking in one place, with CSV and PDF export options.",
+
+    tags: ["Velocity-Based Training", "1RM Profiling", "Regression", "JavaScript"],
+
+    link: "https://ongtheblob.github.io/vbt_1rm_profile/",
+    linkLabel: "Open live project"
   }
+
 ];
