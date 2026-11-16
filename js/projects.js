@@ -7,7 +7,7 @@ const projects = [
     problem: "Programme details had to be manually keyed into the company's Excel file before they could be uploaded. Re-entering each programme was repetitive, time-consuming and created opportunities for human error.",
     approach: "I built a dedicated calendar so the team could keep track of programmes in one place. The system supports rolling programmes, helping recurring sessions stay organised without having to recreate every entry manually.",
     impact: "The aim is to reduce repeated data entry and human error, while making it possible to export the programme information immediately and keep the workflow smoother.",
-    tags: ["JavaScript", "Supabase", "Calendar UI"],"
+    tags: ["JavaScript", "Supabase", "Calendar UI"],
   },
   {
     number: "02", title: "Loughborough Soccer Passing Test Calculator", category: "sport",
