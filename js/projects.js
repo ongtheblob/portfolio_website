@@ -7,8 +7,7 @@ const projects = [
     problem: "Programme details had to be manually keyed into the company's Excel file before they could be uploaded. Re-entering each programme was repetitive, time-consuming and created opportunities for human error.",
     approach: "I built a dedicated calendar so the team could keep track of programmes in one place. The system supports rolling programmes, helping recurring sessions stay organised without having to recreate every entry manually.",
     impact: "The aim is to reduce repeated data entry and human error, while making it possible to export the programme information immediately and keep the workflow smoother.",
-    tags: ["JavaScript", "Supabase", "Calendar UI"],
-    link: "https://ongtheblob.github.io/calendar/", linkLabel: "Open live project"
+    tags: ["JavaScript", "Supabase", "Calendar UI"],"
   },
   {
     number: "02", title: "Loughborough Soccer Passing Test Calculator", category: "sport",
@@ -17,7 +16,7 @@ const projects = [
     problem: "During my final-year project, I was responsible for tracking errors and bonus hits during the Loughborough Soccer Passing Test. I had to keep my eyes on the ball throughout the test, while also recording events manually. Writing everything down and then timing the player and entering the values into a calculator added more work to the process.",
     approach: "I created a calculator to bring the scoring inputs together. It takes the raw time and the counts for misses at the bench, misses at the target area, handling errors, outside passes, cone touches and bonus hits, then applies the corresponding time adjustments.",
     impact: "The calculator streamlines the data-collection and calculation process, reducing the need to record each event separately and then re-enter the information afterwards.",
-    tags: ["Streamlit", "Python", "Performance Testing"],
+    tags: ["Python", "Performance Testing", "Research Design"],
     link: "https://ongtheblob.github.io/LSPT/", linkLabel: "Open live project"
   },
   {
@@ -60,13 +59,9 @@ const projects = [
     image: "assets/images/vo2max-running-economy.png",
 
     description: "A sports science test logger for recording and analysing participant data across Running Economy and Maximal Oxygen Uptake / Endurance protocols.",
-
     problem: "Sports science testing involves recording several measures across multiple stages. Keeping participant information, speed, VO₂, heart rate and RPE organised is important when reviewing a test.",
-
     approach: "I developed a test logger that brings participant details and both testing protocols into one workflow. It supports stage-by-stage data entry, summary measures and visualisations.",
-
     impact: "The application brings test recording, analysis and reporting together, with CSV downloads and a combined printable PDF report.",
-
     tags: ["Exercise Physiology", "VO₂max", "Data Visualisation", "JavaScript"],
 
     link: "https://ongtheblob.github.io/VO2max_calculator/",
@@ -79,15 +74,10 @@ const projects = [
     label: "STRENGTH & CONDITIONING",
     glyph: "🏋️",
     image: "assets/images/vbt-1rm-profile.png",
-
     description: "An athlete performance tool for creating load–velocity profiles, estimating 1RM and tracking strength testing sessions.",
-
     problem: "Interpreting load–velocity observations and estimating an athlete's one-repetition maximum requires testing data to be organised and analysed consistently.",
-
     approach: "I built an application where users enter athlete details, select an exercise and add load–velocity data points. The system generates a load–velocity profile and displays estimated 1RM and regression statistics.",
-
     impact: "The tool combines profiling, regression results and athlete progress tracking in one place, with CSV and PDF export options.",
-
     tags: ["Velocity-Based Training", "1RM Profiling", "Regression", "JavaScript"],
 
     link: "https://ongtheblob.github.io/vbt_1rm_profile/",
