@@ -1876,3 +1876,41 @@ button {
     }
 }
 
+
+/* FIX: REMOVE UNWANTED SPACE IN ABOUT STAMP */
+
+.about-stamp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 0 !important;
+    row-gap: 0 !important;
+
+    line-height: 0.95;
+}
+
+/* Remove unwanted spacing between text elements */
+
+.about-stamp > * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Keep italic text aligned with the other lines */
+
+.about-stamp span {
+    display: inline-block;
+    line-height: 0.95;
+    margin: 0 !important;
+}
+
+/* Remove consecutive empty line breaks */
+
+.about-stamp br + br {
+    display: none;
+}
+
