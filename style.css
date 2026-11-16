@@ -883,22 +883,92 @@ button {
 
 .about-grid {
     display: grid;
-    grid-template-columns: 0.85fr 1.15fr;
+    grid-template-columns: 1fr 1.15fr;
     align-items: center;
-    gap: 10%;
+    gap: 8%;
 }
 
+/* Main graphic */
+
 .about-stamp {
-    width: max-content;
-    padding: 22px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: min(100%, 540px);
+    min-height: 410px;
+
+    padding: 38px 35px;
+
     border: 2px solid var(--ink);
-    box-shadow: 9px 10px 0 var(--ink);
-    font-size: clamp(32px, 5vw, 62px);
+    box-shadow: 12px 13px 0 var(--ink);
+
+    font-size: clamp(48px, 4.2vw, 76px);
     font-weight: 800;
     line-height: 0.98;
     letter-spacing: -0.09em;
+
     transform: rotate(-5deg);
+    transform-origin: center;
 }
+
+.about-stamp span {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Larger desktop monitors */
+
+@media (min-width: 1500px) {
+
+    .about-grid {
+        grid-template-columns: 1fr 1.15fr;
+        gap: 9%;
+    }
+
+    .about-stamp {
+        width: 100%;
+        max-width: 580px;
+        min-height: 450px;
+
+        padding: 45px 42px;
+
+        font-size: clamp(65px, 4.3vw, 82px);
+
+        box-shadow: 15px 16px 0 var(--ink);
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 800px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .about-stamp {
+        width: min(100%, 420px);
+        min-height: 300px;
+        padding: 28px;
+        font-size: clamp(40px, 8vw, 60px);
+    }
+}
+
+/* Small mobile screens */
+
+@media (max-width: 440px) {
+
+    .about-stamp {
+        width: 90%;
+        min-height: 260px;
+        padding: 24px;
+        font-size: clamp(36px, 9vw, 46px);
+    }
+}
+
 
 .about-stamp span {
     font-family: Georgia, serif;
